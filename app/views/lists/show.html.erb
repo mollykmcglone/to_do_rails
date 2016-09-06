@@ -12,8 +12,8 @@
                                 :data => {:confirm => "Are you sure?",
                                               :method => "delete"} %>
         <%= form_for [@list, task] do |f| %>
-          <%= f.hidden_field(:done, :value => !task.done) %>
-          <p><%= f.submit "Toggle Done/Not Done" %></p>
+          <%= f.hidden_field(:done, :value => true) %>
+          <p><%= f.submit "Mark as Done" %></p>
         <% end %>
       </li>
     <% end %>
@@ -29,8 +29,8 @@
                                 :data => {:confirm => "Are you sure?",
                                               :method => "delete"} %>
         <%= form_for [@list, task] do |f| %>
-          <%= f.hidden_field(:done, :value => !task.done) %>
-          <p><%= f.submit "Toggle Done/Not Done" %></p>
+          <%= f.hidden_field(:done, :value => false) %>
+          <p><%= f.submit "Mark as Not Done" %></p>
         <% end %>
       </li>
     <% end %>
