@@ -1,24 +1,51 @@
-# README
+# To Do
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### An app that tracks your to-do lists and related tasks.
 
-Things you may want to cover:
+#### By Molly McGlone and Bang Nguyen, September 2016
 
-* Ruby version
+## Description:
 
-* System dependencies
+An Epicodus pair exercise to practice building a basic Ruby on Rails app.
 
-* Configuration
+Objectives:
+* Create RESTful routes and CRUD processes for each resource (list and task).
+* Use nested routes for tasks and partials, redirects, form helpers, route helpers.
+* On the index page, let users mark tasks as done without deleting them.
+* Use scopes in the model (class file) to retrieve all of the done and not done tasks. Then call these methods from the view to display the data.
 
-* Database creation
+## Installation
 
-* Database initialization
+* `git clone https://github.com/mollykmcglone/to_do_rails.git`
+* `gem install rails`
+* `bundle install`
+* `rake db:create`
+* `rake db:migrate`
+* `rake db:test:prepare`
 
-* How to run the test suite
+## Running / Development
 
-* Services (job queues, cache servers, search engines, etc.)
+* Start the project with `rails server`
+* Visit your app at [http://localhost:3000](http://localhost:3000).
 
-* Deployment instructions
+## Known Issues/Bugs
 
-* ...
+* None.
+
+## Support and contact details
+
+Please contact me with any questions, concerns, or ideas at mollykmcglone@gmail.com
+
+## Technologies Used
+
+* Ruby
+* Rails
+* PostgreSQL
+* HTML/CSS
+* Bootstrap
+
+### License
+
+MIT License
+
+Copyright (c) 2016  **Molly McGlone and Bang Nguyen**
